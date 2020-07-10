@@ -17,7 +17,7 @@
             $dados = array("tipo" =>"success","mensagem" => "","dados" => $dadosCategoria);
 
         } else{
-            $dados = array("tipo" => "error","mensagem" => "Não possível localizar a categoria.","dados" => array());
+          $dados = array("tipo" => "error","mensagem" => "Não possível localizar a categoria.","dados" => array());
         }
 
         mysqli_close($conexao);
